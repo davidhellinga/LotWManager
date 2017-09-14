@@ -1,0 +1,4 @@
+C:\Users\Hellinga\Documents\GitHub\LotWManager\InitDB\bin\Debug\InitDB.exe
+C:\Users\Hellinga\Documents\GitHub\LotWManager\InitDB\bin\Debug\InitDB.pdb
+C:\Users\Hellinga\Documents\GitHub\LotWManager\InitDB\obj\Debug\InitDB.exe
+C:\Users\Hellinga\Documents\GitHub\LotWManager\InitDB\obj\Debug\InitDB.pdb
