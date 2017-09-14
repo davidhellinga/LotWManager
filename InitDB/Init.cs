@@ -4,7 +4,7 @@ namespace InitDB
 {
     public class Init
     {
-        private SqlConnection ConnectDB()
+        private SqlConnection ConnectDb()
         {
             //"Server=localhost\\SQLEXPRESS;Initial Catalog=LotWManager;IntegratedSecurity=True"
             const string connectionString = "Server=localhost\\SQLEXPRESS;Database=LotWManager;Trusted_Connection=True";
@@ -15,7 +15,7 @@ namespace InitDB
 
         public void startInit()
         {
-            using (var conn = ConnectDB())
+            using (var conn = ConnectDb())
             {
                 conn.Open();
             

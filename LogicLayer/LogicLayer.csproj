@@ -57,11 +57,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="LoginHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DALayer\DALayer.csproj">
+      <Project>{d9fa03aa-cafb-4e3a-8a66-38a79a95792b}</Project>
+      <Name>DALayer</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\xunit.core.2.3.0-beta5-build3769\build\xunit.core.targets" />

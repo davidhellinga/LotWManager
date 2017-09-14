@@ -11,7 +11,11 @@
     ],
     "frameworks": {
       "netcoreapp1.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "C:\\Users\\Hellinga\\Documents\\GitHub\\LotWManager\\LogicLayer\\LogicLayer.csproj": {
+            "projectPath": "C:\\Users\\Hellinga\\Documents\\GitHub\\LotWManager\\LogicLayer\\LogicLayer.csproj"
+          }
+        }
       }
     }
   },

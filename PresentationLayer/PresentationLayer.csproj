@@ -11,4 +11,7 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.2" />
     <PackageReference Include="xunit" Version="2.3.0-beta5-build3769" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LogicLayer\LogicLayer.csproj" />
+  </ItemGroup>
 </Project>
