@@ -1,0 +1,8 @@
+C:\Users\Hellinga\Documents\GitHub\LotWManager\PresentationLayer\bin\Debug\netcoreapp1.1\PresentationLayer.deps.json
+C:\Users\Hellinga\Documents\GitHub\LotWManager\PresentationLayer\bin\Debug\netcoreapp1.1\PresentationLayer.runtimeconfig.json
+C:\Users\Hellinga\Documents\GitHub\LotWManager\PresentationLayer\bin\Debug\netcoreapp1.1\PresentationLayer.runtimeconfig.dev.json
+C:\Users\Hellinga\Documents\GitHub\LotWManager\PresentationLayer\bin\Debug\netcoreapp1.1\PresentationLayer.dll
+C:\Users\Hellinga\Documents\GitHub\LotWManager\PresentationLayer\bin\Debug\netcoreapp1.1\PresentationLayer.pdb
+C:\Users\Hellinga\Documents\GitHub\LotWManager\PresentationLayer\obj\Debug\netcoreapp1.1\PresentationLayer.AssemblyInfo.cs
+C:\Users\Hellinga\Documents\GitHub\LotWManager\PresentationLayer\obj\Debug\netcoreapp1.1\PresentationLayer.dll
+C:\Users\Hellinga\Documents\GitHub\LotWManager\PresentationLayer\obj\Debug\netcoreapp1.1\PresentationLayer.pdb
