@@ -2,20 +2,87 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b645e6e-602b-4905-aa0f-a59304f50dd0" name="Default" comment="Initialisation of projects">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DALayer/DBHandler.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DALayer/DataAccessor.cs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DALayer/Program.cs" afterPath="$PROJECT_DIR$/DALayer/IDataAccess.cs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DALayerTests/Class1.cs" afterPath="$PROJECT_DIR$/DALayerTests/DBHanderTest.cs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LogicLayer/Program.cs" afterPath="$PROJECT_DIR$/LogicLayer/LoginHandler.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DALayer/Program.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LogicLayer/Program.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PresentationLayer/InputHandler.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PresentationLayer/LoginHandler.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PresentationLayer/OutputHandler.cs" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/Controllers/HomeController.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/Startup.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/Views/Home/About.cshtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/Views/Home/Contact.cshtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/Views/Home/Index.cshtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/Views/Shared/Error.cshtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/Views/Shared/_Layout.cshtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/Views/_ViewImports.cshtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/Views/_ViewStart.cshtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/appsettings.Development.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/appsettings.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/bin/Debug/netcoreapp1.1/PresentationLayer.deps.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/bin/Debug/netcoreapp1.1/PresentationLayer.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/bin/Debug/netcoreapp1.1/PresentationLayer.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/bin/Debug/netcoreapp1.1/PresentationLayer.runtimeconfig.dev.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/bin/Debug/netcoreapp1.1/PresentationLayer.runtimeconfig.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/bundleconfig.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/obj/Debug/netcoreapp1.1/CoreCompileInputs.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/obj/Debug/netcoreapp1.1/PresentationLayer.AssemblyInfo.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/obj/Debug/netcoreapp1.1/PresentationLayer.Program.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/obj/Debug/netcoreapp1.1/PresentationLayer.csproj.FileListAbsolute.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/obj/Debug/netcoreapp1.1/PresentationLayer.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/obj/Debug/netcoreapp1.1/PresentationLayer.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/obj/PresentationLayer.csproj.nuget.g.props" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/obj/PresentationLayer.csproj.nuget.g.targets" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/obj/project.assets.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/obj/project.packagespec.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/css/site.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/css/site.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/images/banner1.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/images/banner2.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/images/banner3.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/images/banner4.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/js/site.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/js/site.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/bootstrap/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/bootstrap/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/bootstrap/dist/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/jquery-validation-unobtrusive/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/jquery-validation/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/jquery-validation/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/jquery/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/jquery/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/jquery/dist/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/jquery/dist/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationLayer/wwwroot/lib/jquery/dist/jquery.min.map" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.LotWManager/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.LotWManager/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DALayer/DALayer.csproj" afterPath="$PROJECT_DIR$/DALayer/DALayer.csproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DALayerTests/DALayerTests.csproj" afterPath="$PROJECT_DIR$/DALayerTests/DALayerTests.csproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InitDB/Init.cs" afterPath="$PROJECT_DIR$/InitDB/Init.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LogicLayer/LogicLayer.csproj" afterPath="$PROJECT_DIR$/LogicLayer/LogicLayer.csproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LogicLayerTests/LogicLayerTests.csproj" afterPath="$PROJECT_DIR$/LogicLayerTests/LogicLayerTests.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LotWManager.sln" afterPath="$PROJECT_DIR$/LotWManager.sln" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PresentationLayer/PresentationLayer.csproj" afterPath="$PROJECT_DIR$/PresentationLayer/PresentationLayer.csproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PresentationLayer/obj/project.assets.json" afterPath="$PROJECT_DIR$/PresentationLayer/obj/project.assets.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PresentationLayer/obj/project.packagespec.json" afterPath="$PROJECT_DIR$/PresentationLayer/obj/project.packagespec.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PresentationLayer/Program.cs" afterPath="$PROJECT_DIR$/PresentationLayer/Program.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,18 +93,17 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="IDataAccess.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DALayer/IDataAccess.cs">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PresentationLayer/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            <state relative-caret-position="0">
+              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
               <folding>
-                <marker date="1505388623865" expanded="false" signature="6:47" ph="..." />
-                <marker date="1505388623865" expanded="true" signature="66:601" ph="{...}" />
-                <marker date="1505388623865" expanded="true" signature="101:599" ph="{...}" />
-                <marker date="1505388623865" expanded="true" signature="116:346" ph="///Checks &quot;password&quot; with stored one belonging to &quot;user&quot; in database. ... " />
-                <marker date="1505388623865" expanded="true" signature="433:550" ph="/// Checks if user exists in db; ... " />
+                <marker date="1505693029569" expanded="true" signature="42:463" ph="{...}" />
+                <marker date="1505693029569" expanded="true" signature="71:461" ph="{...}" />
+                <marker date="1505693029569" expanded="true" signature="124:455" ph="{...}" />
+                <marker date="1505693029569" expanded="true" signature="300:445" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -46,8 +112,8 @@
       <file leaf-file-name="DataAccessor.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DALayer/DataAccessor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="252">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <marker date="1505388960139" expanded="true" signature="35:256" ph="{...}" />
                 <marker date="1505388960139" expanded="true" signature="67:254" ph="{...}" />
@@ -58,51 +124,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBHandler.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DALayer/DBHandler.cs">
+      <file leaf-file-name="OutputHandler.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PresentationLayer/OutputHandler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+            <state relative-caret-position="21">
+              <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
               <folding>
-                <marker date="1505389008594" expanded="true" signature="6:42" ph="..." />
-                <marker date="1505389008594" expanded="true" signature="61:1553" ph="{...}" />
-                <marker date="1505389008594" expanded="true" signature="104:1551" ph="{...}" />
-                <marker date="1505389008594" expanded="true" signature="119:248" ph="/// Call to create new connection to db ... " />
-                <marker date="1505389008594" expanded="true" signature="290:614" ph="{...}" />
-                <marker date="1505389008594" expanded="true" signature="624:874" ph="/// Sends username and password to database, returns number of entries with matching data ... " />
-                <marker date="1505389008594" expanded="true" signature="949:1419" ph="{...}" />
-                <marker date="1505389008594" expanded="true" signature="1002:1409" ph="{...}" />
-                <marker date="1505389008594" expanded="true" signature="1469:1545" ph="{...}" />
+                <marker date="1505693038551" expanded="true" signature="6:47" ph="..." />
+                <marker date="1505693038551" expanded="true" signature="76:822" ph="{...}" />
+                <marker date="1505693038551" expanded="true" signature="109:820" ph="{...}" />
+                <marker date="1505693038551" expanded="true" signature="147:572" ph="{...}" />
+                <marker date="1505693038551" expanded="true" signature="418:506" ph="{...}" />
+                <marker date="1505693038551" expanded="true" signature="632:712" ph="{...}" />
+                <marker date="1505693038551" expanded="true" signature="755:814" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBHanderTest.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DALayerTests/DBHanderTest.cs">
+      <file leaf-file-name="InputHandler.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PresentationLayer/InputHandler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="21">
+              <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
               <folding>
-                <marker date="1505380213065" expanded="true" signature="37:77" ph="{...}" />
-                <marker date="1505380213065" expanded="true" signature="63:75" ph="{...}" />
+                <marker date="1505693038582" expanded="true" signature="6:51" ph="..." />
+                <marker date="1505693038582" expanded="true" signature="80:1164" ph="{...}" />
+                <marker date="1505693038582" expanded="true" signature="112:1162" ph="{...}" />
+                <marker date="1505693038582" expanded="true" signature="172:623" ph="{...}" />
+                <marker date="1505693038582" expanded="true" signature="256:340" ph="{...}" />
+                <marker date="1505693038582" expanded="true" signature="374:588" ph="{...}" />
+                <marker date="1505693038582" expanded="true" signature="668:1005" ph="{...}" />
+                <marker date="1505693038582" expanded="true" signature="778:835" ph="{...}" />
+                <marker date="1505693038582" expanded="true" signature="1040:1156" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="LoginHandler.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LogicLayer/LoginHandler.cs">
+        <entry file="file://$PROJECT_DIR$/PresentationLayer/LoginHandler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1505389600661" expanded="true" signature="6:62" ph="..." />
-                <marker date="1505389600661" expanded="true" signature="84:807" ph="{...}" />
-                <marker date="1505389600661" expanded="true" signature="116:805" ph="{...}" />
-                <marker date="1505389600661" expanded="true" signature="131:245" ph="/// Creates DataAccesor. Call _dataAcces to communicate with database ... " />
-                <marker date="1505389600661" expanded="true" signature="338:566" ph="/// Checks wheather user and password exist and belong to eachother ... " />
-                <marker date="1505389600661" expanded="true" signature="637:799" ph="{...}" />
+                <marker date="1505693034851" expanded="true" signature="27:1342" ph="{...}" />
+                <marker date="1505693034851" expanded="true" signature="59:1340" ph="{...}" />
+                <marker date="1505693034851" expanded="true" signature="346:1334" ph="{...}" />
+                <marker date="1505693034851" expanded="true" signature="381:1324" ph="{...}" />
+                <marker date="1505693034851" expanded="true" signature="517:690" ph="{...}" />
+                <marker date="1505693034851" expanded="true" signature="732:905" ph="{...}" />
+                <marker date="1505693034851" expanded="true" signature="982:1104" ph="{...}" />
+                <marker date="1505693034851" expanded="true" signature="1125:1287" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -115,33 +188,43 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/LogicLayer/LoginHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DALayer/DataAccessor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LogicLayerTests/Class1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/InitDB/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PresentationLayer/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DALayer/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DALayer/IDataAccess.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DALayerTests/DBHanderTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/InitDB/Init.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/InitDatabase/Class1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DALayer/DBHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DALayer/DataAccessor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PresentationLayer/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/InitDB/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PresentationLayer/InputHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PresentationLayer/OutputHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LogicLayer/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DALayerTests/DBHanderTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/InitDB/Init.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PresentationLayer/LoginHandler.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/PresentationLayer/Controllers/HomeController.cs" />
-        <option value="$PROJECT_DIR$/LogicLayer/Program.cs" />
         <option value="$PROJECT_DIR$/DALayerTests/Class1.cs" />
         <option value="$PROJECT_DIR$/LogicLayerTests/Class1.cs" />
         <option value="$PROJECT_DIR$/InitDatabase/Class1.cs" />
         <option value="$PROJECT_DIR$/InitDB/InitDB.cs" />
         <option value="$PROJECT_DIR$/InitDB/Program.cs" />
-        <option value="$PROJECT_DIR$/DALayer/Program.cs" />
         <option value="$PROJECT_DIR$/InitDB/Init.cs" />
         <option value="$PROJECT_DIR$/DALayer/DataAccess.cs" />
         <option value="$PROJECT_DIR$/DALayer/IDataAccess.cs" />
         <option value="$PROJECT_DIR$/DALayer/DataAccessor.cs" />
         <option value="$PROJECT_DIR$/DALayer/DBHandler.cs" />
         <option value="$PROJECT_DIR$/LogicLayer/LoginHandler.cs" />
+        <option value="$PROJECT_DIR$/PresentationLayer/CoreLoop.cs" />
+        <option value="$PROJECT_DIR$/DALayer/Program.cs" />
+        <option value="$PROJECT_DIR$/LogicLayer/Program.cs" />
+        <option value="$PROJECT_DIR$/PresentationLayer/OutputHandler.cs" />
+        <option value="$PROJECT_DIR$/PresentationLayer/InputHandler.cs" />
+        <option value="$PROJECT_DIR$/PresentationLayer/LoginHandler.cs" />
+        <option value="$PROJECT_DIR$/PresentationLayer/Program.cs" />
       </list>
     </option>
   </component>
@@ -184,6 +267,10 @@
               <option name="myItemId" value="LotWManager (6 projects)" />
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PresentationLayer" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -192,10 +279,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="LotWManager (6 projects)" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LogicLayerTests" />
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -251,7 +334,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected=".NET Project.InitDB">
+  <component name="RunManager" selected=".NET Project.PresentationLayer">
     <configuration default="false" name="PresentationLayer" type="DotNetProject" factoryName=".NET Project" temporary="true">
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/PresentationLayer/PresentationLayer.csproj" />
       <option name="PROJECT_KIND" value="DotNetCore" />
@@ -338,6 +421,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -416,8 +505,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue=".NET Project.InitDB" />
-        <item index="1" class="java.lang.String" itemvalue=".NET Project.PresentationLayer" />
+        <item index="0" class="java.lang.String" itemvalue=".NET Project.PresentationLayer" />
+        <item index="1" class="java.lang.String" itemvalue=".NET Project.InitDB" />
       </list>
     </recent_temporary>
   </component>
@@ -434,14 +523,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505378073370</updated>
-      <workItem from="1505378075827" duration="10781000" />
+      <workItem from="1505378075827" duration="11013000" />
+      <workItem from="1505686636156" duration="179000" />
+      <workItem from="1505687175419" duration="5800000" />
     </task>
+    <task id="LOCAL-00001" summary="Initialisation of projects">
+      <created>1505389797183</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1505389797183</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10781000" />
+    <option name="totallyTimeSpent" value="16992000" />
   </component>
-  <component name="TodoView" selected-index="4">
+  <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -452,29 +551,28 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978093" sideWeight="0.17760417" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3603505" sideWeight="0.49791667" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978093" sideWeight="0.17760417" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3603505" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44578314" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44578314" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3702081" sideWeight="0.82239586" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -489,18 +587,143 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initialisation of projects" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LogicLayerTests/Class1.cs">
+    <entry file="file://$PROJECT_DIR$/DALayer/IDataAccess.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <marker date="1505388623865" expanded="false" signature="6:47" ph="..." />
+            <marker date="1505388623865" expanded="true" signature="66:601" ph="{...}" />
+            <marker date="1505388623865" expanded="true" signature="101:599" ph="{...}" />
+            <marker date="1505388623865" expanded="true" signature="116:346" ph="///Checks &quot;password&quot; with stored one belonging to &quot;user&quot; in database. ... " />
+            <marker date="1505388623865" expanded="true" signature="433:550" ph="/// Checks if user exists in db; ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DALayer/DataAccessor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <marker date="1505388960139" expanded="true" signature="35:256" ph="{...}" />
+            <marker date="1505388960139" expanded="true" signature="67:254" ph="{...}" />
+            <marker date="1505388960139" expanded="true" signature="82:153" ph="/// return new DbHandler() ... " />
+            <marker date="1505388960139" expanded="true" signature="192:248" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DALayer/DBHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding>
+            <marker date="1505389008594" expanded="false" signature="6:42" ph="..." />
+            <marker date="1505389008594" expanded="true" signature="61:1553" ph="{...}" />
+            <marker date="1505389008594" expanded="true" signature="104:1551" ph="{...}" />
+            <marker date="1505389008594" expanded="true" signature="119:248" ph="/// Call to create new connection to db ... " />
+            <marker date="1505389008594" expanded="true" signature="290:614" ph="{...}" />
+            <marker date="1505389008594" expanded="true" signature="624:874" ph="/// Sends username and password to database, returns number of entries with matching data ... " />
+            <marker date="1505389008594" expanded="true" signature="949:1419" ph="{...}" />
+            <marker date="1505389008594" expanded="true" signature="1002:1409" ph="{...}" />
+            <marker date="1505389008594" expanded="true" signature="1469:1545" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DALayerTests/DBHanderTest.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
-            <marker date="1505380228398" expanded="true" signature="40:80" ph="{...}" />
-            <marker date="1505380228398" expanded="true" signature="66:78" ph="{...}" />
+            <marker date="1505380213065" expanded="true" signature="37:77" ph="{...}" />
+            <marker date="1505380213065" expanded="true" signature="63:75" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LogicLayer/LoginHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1505389600661" expanded="false" signature="6:62" ph="..." />
+            <marker date="1505389600661" expanded="true" signature="84:807" ph="{...}" />
+            <marker date="1505389600661" expanded="true" signature="116:805" ph="{...}" />
+            <marker date="1505389600661" expanded="true" signature="131:245" ph="/// Creates DataAccesor. Call _dataAcces to communicate with database ... " />
+            <marker date="1505389600661" expanded="true" signature="338:566" ph="/// Checks wheather user and password exist and belong to eachother ... " />
+            <marker date="1505389600661" expanded="true" signature="637:799" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DALayer/IDataAccess.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <marker date="1505388623865" expanded="false" signature="6:47" ph="..." />
+            <marker date="1505388623865" expanded="true" signature="66:601" ph="{...}" />
+            <marker date="1505388623865" expanded="true" signature="101:599" ph="{...}" />
+            <marker date="1505388623865" expanded="true" signature="116:346" ph="///Checks &quot;password&quot; with stored one belonging to &quot;user&quot; in database. ... " />
+            <marker date="1505388623865" expanded="true" signature="433:550" ph="/// Checks if user exists in db; ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DALayer/DataAccessor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <marker date="1505388960139" expanded="true" signature="35:256" ph="{...}" />
+            <marker date="1505388960139" expanded="true" signature="67:254" ph="{...}" />
+            <marker date="1505388960139" expanded="true" signature="82:153" ph="/// return new DbHandler() ... " />
+            <marker date="1505388960139" expanded="true" signature="192:248" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DALayer/DBHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding>
+            <marker date="1505389008594" expanded="false" signature="6:42" ph="..." />
+            <marker date="1505389008594" expanded="true" signature="61:1553" ph="{...}" />
+            <marker date="1505389008594" expanded="true" signature="104:1551" ph="{...}" />
+            <marker date="1505389008594" expanded="true" signature="119:248" ph="/// Call to create new connection to db ... " />
+            <marker date="1505389008594" expanded="true" signature="290:614" ph="{...}" />
+            <marker date="1505389008594" expanded="true" signature="624:874" ph="/// Sends username and password to database, returns number of entries with matching data ... " />
+            <marker date="1505389008594" expanded="true" signature="949:1419" ph="{...}" />
+            <marker date="1505389008594" expanded="true" signature="1002:1409" ph="{...}" />
+            <marker date="1505389008594" expanded="true" signature="1469:1545" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DALayerTests/DBHanderTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <marker date="1505380213065" expanded="true" signature="37:77" ph="{...}" />
+            <marker date="1505380213065" expanded="true" signature="63:75" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LogicLayerTests/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -508,9 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <marker date="1505382245765" expanded="true" signature="37:80" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -518,15 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="17" column="63" lean-forward="false" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
-          <folding>
-            <marker date="1505378156236" expanded="false" signature="6:128" ph="..." />
-            <marker date="1505378156236" expanded="true" signature="169:701" ph="{...}" />
-            <marker date="1505378156236" expanded="true" signature="216:699" ph="{...}" />
-            <marker date="1505378156236" expanded="true" signature="259:306" ph="{...}" />
-            <marker date="1505378156236" expanded="true" signature="344:464" ph="{...}" />
-            <marker date="1505378156236" expanded="true" signature="504:608" ph="{...}" />
-            <marker date="1505378156236" expanded="true" signature="646:693" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -545,12 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <marker date="1505384802621" expanded="false" signature="6:47" ph="..." />
-            <marker date="1505384802621" expanded="true" signature="65:241" ph="{...}" />
-            <marker date="1505384802621" expanded="true" signature="94:239" ph="{...}" />
-            <marker date="1505384802621" expanded="true" signature="148:233" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -558,26 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding>
-            <marker date="1505387372475" expanded="true" signature="46:1137" ph="{...}" />
-            <marker date="1505387372475" expanded="true" signature="70:1135" ph="{...}" />
-            <marker date="1505387372475" expanded="true" signature="118:452" ph="{...}" />
-            <marker date="1505387372475" expanded="true" signature="485:1129" ph="{...}" />
-            <marker date="1505387372475" expanded="true" signature="538:1119" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DALayer/DataAccessor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <marker date="1505388960139" expanded="true" signature="35:256" ph="{...}" />
-            <marker date="1505388960139" expanded="true" signature="67:254" ph="{...}" />
-            <marker date="1505388960139" expanded="true" signature="82:153" ph="/// return new DbHandler() ... " />
-            <marker date="1505388960139" expanded="true" signature="192:248" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -597,10 +782,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DALayer/DBHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
+        <state relative-caret-position="189">
           <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
           <folding>
-            <marker date="1505389008594" expanded="true" signature="6:42" ph="..." />
+            <marker date="1505389008594" expanded="false" signature="6:42" ph="..." />
             <marker date="1505389008594" expanded="true" signature="61:1553" ph="{...}" />
             <marker date="1505389008594" expanded="true" signature="104:1551" ph="{...}" />
             <marker date="1505389008594" expanded="true" signature="119:248" ph="/// Call to create new connection to db ... " />
@@ -613,17 +798,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LogicLayer/LoginHandler.cs">
+    <entry file="file://$PROJECT_DIR$/LogicLayer/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <marker date="1505690501212" expanded="true" signature="20:146" ph="{...}" />
+            <marker date="1505690501212" expanded="true" signature="52:144" ph="{...}" />
+            <marker date="1505690501212" expanded="true" signature="105:138" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DALayer/DataAccessor.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <marker date="1505389600661" expanded="true" signature="6:62" ph="..." />
+            <marker date="1505388960139" expanded="true" signature="35:256" ph="{...}" />
+            <marker date="1505388960139" expanded="true" signature="67:254" ph="{...}" />
+            <marker date="1505388960139" expanded="true" signature="82:153" ph="/// return new DbHandler() ... " />
+            <marker date="1505388960139" expanded="true" signature="192:248" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PresentationLayer/OutputHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+          <folding>
+            <marker date="1505693038551" expanded="true" signature="6:47" ph="..." />
+            <marker date="1505693038551" expanded="true" signature="76:822" ph="{...}" />
+            <marker date="1505693038551" expanded="true" signature="109:820" ph="{...}" />
+            <marker date="1505693038551" expanded="true" signature="147:572" ph="{...}" />
+            <marker date="1505693038551" expanded="true" signature="418:506" ph="{...}" />
+            <marker date="1505693038551" expanded="true" signature="632:712" ph="{...}" />
+            <marker date="1505693038551" expanded="true" signature="755:814" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PresentationLayer/InputHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+          <folding>
+            <marker date="1505693038582" expanded="true" signature="6:51" ph="..." />
+            <marker date="1505693038582" expanded="true" signature="80:1164" ph="{...}" />
+            <marker date="1505693038582" expanded="true" signature="112:1162" ph="{...}" />
+            <marker date="1505693038582" expanded="true" signature="172:623" ph="{...}" />
+            <marker date="1505693038582" expanded="true" signature="256:340" ph="{...}" />
+            <marker date="1505693038582" expanded="true" signature="374:588" ph="{...}" />
+            <marker date="1505693038582" expanded="true" signature="668:1005" ph="{...}" />
+            <marker date="1505693038582" expanded="true" signature="778:835" ph="{...}" />
+            <marker date="1505693038582" expanded="true" signature="1040:1156" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LogicLayer/LoginHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding>
+            <marker date="1505389600661" expanded="false" signature="6:62" ph="..." />
             <marker date="1505389600661" expanded="true" signature="84:807" ph="{...}" />
             <marker date="1505389600661" expanded="true" signature="116:805" ph="{...}" />
             <marker date="1505389600661" expanded="true" signature="131:245" ph="/// Creates DataAccesor. Call _dataAcces to communicate with database ... " />
             <marker date="1505389600661" expanded="true" signature="338:566" ph="/// Checks wheather user and password exist and belong to eachother ... " />
             <marker date="1505389600661" expanded="true" signature="637:799" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PresentationLayer/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding>
+            <marker date="1505693029569" expanded="true" signature="42:463" ph="{...}" />
+            <marker date="1505693029569" expanded="true" signature="71:461" ph="{...}" />
+            <marker date="1505693029569" expanded="true" signature="124:455" ph="{...}" />
+            <marker date="1505693029569" expanded="true" signature="300:445" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PresentationLayer/LoginHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1505693034851" expanded="true" signature="27:1342" ph="{...}" />
+            <marker date="1505693034851" expanded="true" signature="59:1340" ph="{...}" />
+            <marker date="1505693034851" expanded="true" signature="346:1334" ph="{...}" />
+            <marker date="1505693034851" expanded="true" signature="381:1324" ph="{...}" />
+            <marker date="1505693034851" expanded="true" signature="517:690" ph="{...}" />
+            <marker date="1505693034851" expanded="true" signature="732:905" ph="{...}" />
+            <marker date="1505693034851" expanded="true" signature="982:1104" ph="{...}" />
+            <marker date="1505693034851" expanded="true" signature="1125:1287" ph="{...}" />
           </folding>
         </state>
       </provider>

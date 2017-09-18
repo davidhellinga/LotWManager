@@ -1,24 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Hosting;
 
 namespace PresentationLayer
 {
-    public class Program
+    internal class Program
     {
         public static void Main(string[] args)
         {
-            var host = new WebHostBuilder()
-                .UseKestrel()
-                .UseContentRoot(Directory.GetCurrentDirectory())
-                .UseIISIntegration()
-                .UseStartup<Startup>()
-                .Build();
-
-            host.Run();
+            var inputHandler = new InputHandler();
+            var outputHandler = new OutputHandler();
+            var nextLoop = true;
+            while (nextLoop)
+            {
+                outputHandler.PrintMenu();
+                nextLoop = inputHandler.ChosenOption(Console.ReadLine());
+            }
         }
     }
 }

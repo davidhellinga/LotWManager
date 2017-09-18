@@ -1,0 +1,17 @@
+C:\Users\Hellinga\Documents\GitHub\LotWManager\LogicLayer\obj\Debug\LogicLayer.csprojResolveAssemblyReference.cache
+C:\Users\Hellinga\Documents\GitHub\LotWManager\LogicLayer\obj\Debug\LogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\Hellinga\Documents\GitHub\LotWManager\LogicLayer\bin\Debug\LogicLayer.exe
+C:\Users\Hellinga\Documents\GitHub\LotWManager\LogicLayer\bin\Debug\LogicLayer.pdb
+C:\Users\Hellinga\Documents\GitHub\LotWManager\LogicLayer\bin\Debug\DALayer.exe
+C:\Users\Hellinga\Documents\GitHub\LotWManager\LogicLayer\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Hellinga\Documents\GitHub\LotWManager\LogicLayer\bin\Debug\xunit.abstractions.dll
+C:\Users\Hellinga\Documents\GitHub\LotWManager\LogicLayer\bin\Debug\xunit.assert.dll
+C:\Users\Hellinga\Documents\GitHub\LotWManager\LogicLayer\bin\Debug\xunit.core.dll
+C:\Users\Hellinga\Documents\GitHub\LotWManager\LogicLayer\bin\Debug\xunit.execution.dotnet.dll
+C:\Users\Hellinga\Documents\GitHub\LotWManager\LogicLayer\bin\Debug\DALayer.pdb
+C:\Users\Hellinga\Documents\GitHub\LotWManager\LogicLayer\bin\Debug\xunit.abstractions.xml
+C:\Users\Hellinga\Documents\GitHub\LotWManager\LogicLayer\bin\Debug\xunit.assert.xml
+C:\Users\Hellinga\Documents\GitHub\LotWManager\LogicLayer\bin\Debug\xunit.core.xml
+C:\Users\Hellinga\Documents\GitHub\LotWManager\LogicLayer\bin\Debug\xunit.execution.dotnet.xml
+C:\Users\Hellinga\Documents\GitHub\LotWManager\LogicLayer\obj\Debug\LogicLayer.exe
+C:\Users\Hellinga\Documents\GitHub\LotWManager\LogicLayer\obj\Debug\LogicLayer.pdb
